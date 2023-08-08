@@ -1,0 +1,86 @@
+.main-component-background {
+    background-image: url('/blob-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about-area {
+    background-color: black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.wrapper h2 {
+    color: #ee3a80;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -15px;
+    gap: 70px;
+}
+
+.pricing {
+    flex: 1;
+    max-width: 400px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .pricing-table {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .wrapper h2 {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.button-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.button-class {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,121 @@
+@keyframes borderColors {
+    0% {
+        border-color: #2196f3;
+    }
+    25% {
+        border-color: #ce417d;
+    }
+    50% {
+        border-color: #4caf50;
+    }
+    75% {
+        border-color: #ffeb3b;
+    }
+    100% {
+        border-color: #2196f3;
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    border: 4.5px solid #ce417d;
+    animation: borderColors 4s linear infinite;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    z-index: 1000;
+    max-width: 600px;
+    padding: 2rem;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.subtitulo {
+    font-size: 11px;
+    text-transform: capitalize;
+    color: #ce417d;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .popup {
+        max-width: 100%;
+        padding: 1rem;
+        max-height: 90%;
+    }
+
+    .textoGrande p {
+        font-size: 10px;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+    font-size: 10px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #ce417d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 1rem auto;
+    transform: translateY(0);
+    animation: fadeInUp 0.5s ease both;
+}
+
+.button:hover {
+    background: linear-gradient(
+        135deg,
+        rgb(249, 119, 148) 10%,
+        rgb(98, 58, 162) 100%
+    );
+}
+
+.textoGrande {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

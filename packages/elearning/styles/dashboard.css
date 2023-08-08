@@ -1,0 +1,587 @@
+/* VARIABLES */
+:root {
+    /* USADO EN LA PAGINA TOTAL */
+    --main-background: #ffffff;
+    --navbar-height: 66px;
+    --app-notification-height: 0px;
+    --header-dropdown-top: 62px;
+    --generic-background: radial-gradient(
+            66.32% 66.32% at 54.13% 113.95%,
+            rgba(108, 38, 255, 0.2) 0,
+            rgba(242, 89, 255, 0) 100%
+        ),
+        linear-gradient(
+            211.99deg,
+            rgba(65, 157, 241, 0.2) -4.17%,
+            rgba(45, 143, 234, 0) 68.7%
+        ),
+        radial-gradient(
+            100% 100% at 28.65% 0,
+            #d5bdf5 0,
+            rgba(250, 247, 254, 0) 100%
+        );
+    --generic-backup-background: #d5bdf5;
+    --quest-background: linear-gradient(
+            5.86deg,
+            rgba(111, 65, 241, 0.2) 6.23%,
+            rgba(94, 45, 234, 0) 106.98%
+        ),
+        radial-gradient(
+            79.08% 151.02% at 84.76% 15.65%,
+            rgba(85, 12, 239, 0.31) 0%,
+            rgba(250, 247, 254, 0) 100%
+        );
+    --btn-color: #ce417d;
+    --color-secundario: #534331;
+    --beige-secundario: #d6d3c6;
+    --logo-color: #ee8ab8;
+    --pastel-color: #6ac9c6;
+    --info-100: #ccfaff;
+    --info-200: #99f0ff;
+    --info-300: #66deff;
+    --info-400: #3fcaff;
+    --info-500: #00a9ff;
+    --info-600: #0083db;
+    --info-700: #0062b7;
+    --info-800: #004593;
+    --info-900: #00317a;
+    --container-width: 1140px;
+    --gutter-space: 30px;
+    --half-gutter-space: calc(var(--gutter-space) / 2);
+    --black-900: #000000;
+    --gray-900: #0a0b0d;
+    --gray-800: #1b1d22;
+    --gray-700: #292c34;
+    --gray-600: #52555d;
+    --gray-500: #b0b4bb;
+    --gray-400: #c0c3c9;
+    --gray-300: #dddfe0;
+    --gray-200: #f7f7f8;
+    --gray-100: #fff;
+    --primary-900: #2c1752;
+    --primary-800: #3c1f70;
+    --primary-700: #6ac9c6;
+    --primary-600: #6ac9c6;
+    --primary-500: #6ac9c6;
+    --primary-400: #aa84ed;
+    --primary-300: #d0baf5;
+    --primary-200: #eae0fb;
+    --primary-100: #faf7fe;
+    --secondary-900: #193d45;
+    --secondary-800: #22535e;
+    --secondary-700: #2b6d7b;
+    --secondary-600: #378a9c;
+    --secondary-500: #44aac0;
+    --secondary-400: #87c9d7;
+    --secondary-300: #bce0e8;
+    --secondary-200: #e1f1f5;
+    --secondary-100: #f8fcfc;
+    --success-900: #16443e;
+    --success-800: #1d5d55;
+    --success-700: #267a6f;
+    --success-600: #319a8d;
+    --success-500: #3cbeae;
+    --success-400: #82d5cb;
+    --success-300: #b9e8e2;
+    --success-200: #e0f5f2;
+    --success-100: #f7fcfc;
+    --warning-900: #593515;
+    --warning-800: #7a491d;
+    --warning-700: #9e5e25;
+    --warning-600: #c9782f;
+    --warning-500: #f8943a;
+    --warning-400: #faba81;
+    --warning-300: #fdd9b8;
+    --warning-200: #feeedf;
+    --warning-100: #fffbf7;
+    --error-900: #531919;
+    --error-800: #712222;
+    --error-700: #952c2c;
+    --error-600: #bc3838;
+    --error-500: #e84545;
+    --error-400: #f18888;
+    --error-300: #f7bcbc;
+    --error-200: #fbe1e1;
+    --error-100: #fef8f8;
+}
+
+.bg-1cab94 {
+    background-color: var(--btn-color);
+}
+
+.bg-roze {
+    color: var(--btn-color);
+}
+
+.w-30px {
+    width: 30px;
+}
+
+.w-35px {
+    width: 35px;
+}
+
+.w-40px {
+    width: 40px;
+}
+
+.w-45px {
+    width: 45px;
+}
+
+.w-50px {
+    width: 50px;
+}
+
+.w-55px {
+    width: 55px;
+}
+
+.max-300px {
+    max-width: 300px;
+}
+
+.max-height-60 {
+    max-height: 60px;
+    overflow-y: auto;
+}
+
+/* Admin Area Style 
+--------------------------------------*/
+.main-content .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-content-box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+}
+
+/* Admin side nav */
+.side-nav-wrapper {
+    background-color: #f7f9fa;
+    height: 100%;
+}
+
+.side-nav-wrapper .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: var(--btn-color);
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 22px;
+    border-radius: 100px;
+}
+
+.side-nav {
+    padding: 40px 30px;
+}
+
+.side-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side-nav ul li a {
+    font-size: 17px;
+    padding: 5px 20px;
+    display: block;
+}
+
+.side-nav ul li a.active {
+    font-weight: bold;
+}
+
+.sidebar-menu-button {
+    background-color: var(--btn-color);
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* End Admin side nav */
+/* info-box-card */
+.info-box-card {
+    margin-bottom: 25px;
+    padding: 30px 20px;
+    background-color: #f7f9fa;
+    text-align: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.info-box-card i {
+    display: inline-block;
+    background-color: var(--btn-color);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 34px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+.info-box-card h1 {
+    font-weight: bold;
+}
+
+.info-box-card:hover {
+    -webkit-box-shadow: var(--btn-color) 0px 1px 4px;
+    box-shadow: var(--btn-color) 0px 1px 4px;
+}
+
+/* End info-box-card */
+/* End Admin Area Style 
+--------------------------------------*/
+/* Instructor Area Style 
+--------------------------------------*/
+.box-shadow {
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Instructor Header */
+.instructor-header-content {
+    padding: 60px 40px;
+}
+
+/* Instructor Create Courses Card */
+.instructor-create-courses-card {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.instructor-create-courses-card .icon {
+    margin-bottom: 15px;
+}
+
+.instructor-create-courses-card .icon i {
+    font-size: 50px;
+    color: var(--btn-color);
+}
+
+.instructor-create-courses-card h3 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.instructor-create-courses-card p {
+    margin-bottom: 20px;
+}
+
+.action-dropdown {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.action-dropdown .icon {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 3px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.action-dropdown .icon:hover {
+    background-color: var(--btn-color);
+    color: #ffffff;
+}
+
+.action-dropdown .dropdown-menu {
+    display: block;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 150px;
+    border: 1px solid #eee;
+}
+
+.action-dropdown .dropdown-menu .dropdown-item {
+    position: relative;
+    padding: 8px 15px 8px 40px;
+    font-size: 15px;
+}
+
+.action-dropdown .dropdown-menu .dropdown-item i {
+    position: absolute;
+    left: 15px;
+    top: 9px;
+    font-size: 18px;
+}
+
+.action-dropdown .dropdown-menu .dropdown-item:active {
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: var(--bs-dropdown-link-hover-bg);
+}
+
+.action-dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* End instructor Area Style 
+-----------------------------------------*/
+/* Create Course Style 
+--------------------------------------*/
+.w-100px {
+    width: 100px;
+}
+
+.file-control {
+    line-height: 48px;
+}
+
+/* End Create Course Style 
+--------------------------------------*/
+/* Profile Style 
+--------------------------------------*/
+.nav-style1 {
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-style1 li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-style1 li:last-child {
+    margin-right: 0;
+}
+
+.nav-style1 li a {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+}
+
+.nav-style1 li a.active,
+.nav-style1 li a:hover {
+    border-bottom: 2px solid var(--btn-color);
+    color: var(--btn-color);
+}
+
+.mw-200px {
+    max-width: 200px;
+}
+
+/* End Profile Style 
+--------------------------------------*/
+/* Start Video Area Style 
+--------------------------------------*/
+.video-area .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.video-sidebar .course-video-list .title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.video-sidebar .course-video-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #eee;
+    max-height: 575px;
+    overflow-y: auto;
+}
+
+.video-sidebar .course-video-list ul li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.video-sidebar .course-video-list ul li:last-child {
+    border-bottom: none;
+}
+
+.video-sidebar .course-video-list ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.video-sidebar .course-video-list ul li.active {
+    background-color: #f4f4f4;
+}
+
+/* End Video Area Style 
+--------------------------------------*/
+/* Start Responsive Style 
+-----------------------------------------*/
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 767px) {
+    /* Admin Area Style 
+  --------------------------------------*/
+    .main-content .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-content-box {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+    /* Side nav wrapper */
+    .side-nav ul li a {
+        padding: 5px 0;
+    }
+    .side-nav-wrapper {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 99999;
+        width: 300px;
+        overflow-y: auto;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .side-nav-wrapper.active {
+        left: 0;
+    }
+    .side-nav-wrapper .sticky-box {
+        position: initial !important;
+    }
+    /* End Side nav wrapper */
+    /* End Admin Area Style 
+  --------------------------------------*/
+    /* Instructor Area Style */
+    .instructor-header-content {
+        padding: 40px 30px;
+        text-align: center;
+    }
+    .instructor-header-content h4 {
+        margin-bottom: 15px;
+    }
+    .instructor-header-content .text-end {
+        text-align: center !important;
+    }
+    .instructor-create-courses-card h3 {
+        font-size: 20px;
+    }
+    /* End instructor Area Style */
+    /* Start Video Area Style 
+  --------------------------------------*/
+    .video-area .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .video-area .video-content .courses-details-desc-style-two {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    /* End Video Area Style 
+  --------------------------------------*/
+    .nav-style1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Admin Area Style 
+  --------------------------------------*/
+    .main-content-box {
+        padding-left: 0;
+    }
+    /* Side nav wrapper */
+    .side-nav ul li a {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    /* End Admin Area Style 
+  --------------------------------------*/
+    /* Instructor Area Style */
+    .instructor-create-courses-card h3 {
+        font-size: 22px;
+    }
+    /* End instructor Area Style */
+    /* Start Video Area Style 
+  --------------------------------------*/
+    .video-area .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* End Video Area Style 
+  --------------------------------------*/
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Admin Area Style 
+  --------------------------------------*/
+    /* Side nav wrapper */
+    .side-nav ul li a {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    /* End Admin Area Style 
+  --------------------------------------*/
+    /* Instructor Area Style */
+    .instructor-create-courses-card h3 {
+        font-size: 22px;
+    }
+    /* End instructor Area Style */
+    /* Start Video Area Style 
+  --------------------------------------*/
+    .video-area .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* End Video Area Style 
+  --------------------------------------*/
+}
+
+@media only screen and (min-width: 1920px) {
+    /* Start Video Area Style 
+  --------------------------------------*/
+    .video-area .container-fluid {
+        padding-left: 120px;
+        padding-right: 120px;
+        max-width: 1920px;
+    }
+    /* End Video Area Style 
+  --------------------------------------*/
+    /* Admin Area Style 
+  --------------------------------------*/
+    .main-content .container-fluid {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    /* End Admin Area Style 
+  --------------------------------------*/
+}
+
+/* End  Responsive Style 
+-----------------------------------------*/
+/*# sourceMappingURL=dashboard.css.map */

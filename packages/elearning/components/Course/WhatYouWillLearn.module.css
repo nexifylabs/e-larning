@@ -1,0 +1,9 @@
+/* WhatYouWillLearn.module.css */
+.learnContent {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    width: 100%;
+    white-space: normal;
+    overflow-x: hidden;
+}

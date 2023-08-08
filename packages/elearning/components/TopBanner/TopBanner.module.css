@@ -1,0 +1,37 @@
+.topBanner {
+    display: none;
+    background: linear-gradient(
+        172deg,
+        rgb(206, 65, 125) 0%,
+        rgb(204, 194, 229) 100%
+    );
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    position: sticky;
+    height: 40px;
+}
+
+@media (max-width: 767px) {
+    .topBanner {
+        height: 85px;
+    }
+}
+
+.topBanner p {
+    color: #ffffff;
+}
+
+.visible {
+    display: block;
+}
