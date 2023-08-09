@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
                     name='viewport'
                     content='initial-scale=1.0, width=device-width'
                 />
-                <link rel='icon' href='/sorvete-logo.png' />
+                <link rel='icon' href='/planet2.png' />
             </Head>
 
             {children}
