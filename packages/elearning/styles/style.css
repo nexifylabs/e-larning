@@ -106,10 +106,10 @@ Default CSS
             rgba(85, 12, 239, 0.31) 0%,
             rgba(250, 247, 254, 0) 100%
         );
-    --btn-color: #ce417d;
+    --btn-color: #042241;
     --color-secundario: #534331;
     --beige-secundario: #d6d3c6;
-    --logo-color: #ee8ab8;
+    --logo-color: #042241;
     --pastel-color: #6ac9c6;
     --info-100: #ccfaff;
     --info-200: #99f0ff;
@@ -1943,7 +1943,7 @@ Navbar Area CSS
     left: 0;
     width: 100%;
     height: 0.15px;
-    background-color: #ce417d;
+    background-color: #042241;
 }
 
 .navbar-area.is-sticky {
@@ -2039,7 +2039,7 @@ Main Banner Area CSS
 .main-banner {
     position: relative;
     /* background: var(--main-background); */
-    background-image: url('/blob-scene-haikei.svg');
+    background-image: url('/blob-haikei.svg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -2250,23 +2250,9 @@ About Area CSS
 .about-area {
     position: relative;
     z-index: 1;
-    background-image: url('/blob-haikei2.svg');
+    background-image: url('/blobsegundo.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: rgb(255, 255, 255);
-    background: linear-gradient(
-        53deg,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(253, 242, 247, 1) 19%,
-        rgba(250, 224, 236, 1) 45%,
-        rgba(249, 219, 233, 1) 53%,
-        rgba(248, 209, 227, 1) 68%,
-        rgba(247, 200, 222, 1) 81%,
-        rgba(246, 195, 219, 1) 88%,
-        rgba(246, 192, 217, 1) 92%,
-        rgba(245, 187, 214, 1) 100%,
-        rgba(238, 138, 184, 1) 100%
-    ); */
 }
 
 .about-image {
@@ -5581,7 +5567,7 @@ Get Instant Courses Area CSS
         border-color: #2196f3;
     }
     25% {
-        border-color: #ce417d;
+        border-color: #042241;
     }
     50% {
         border-color: #4caf50;
@@ -5603,15 +5589,8 @@ Get Instant Courses Area CSS
     background: linear-gradient(
         53deg,
         rgba(255, 255, 255, 1) 0%,
-        rgba(246, 192, 217, 1) 0%,
-        rgba(253, 242, 247, 1) 26%,
-        rgba(250, 224, 236, 1) 45%,
-        rgba(249, 219, 233, 1) 53%,
-        rgba(248, 209, 227, 1) 68%,
-        rgba(247, 200, 222, 1) 81%,
-        rgba(246, 195, 219, 1) 88%,
-        rgba(245, 187, 214, 1) 100%,
-        rgba(238, 138, 184, 1) 100%
+
+        #042241 100%
     );
 
     border-radius: 50px;
@@ -5751,7 +5730,7 @@ View All Courses Area CSS
 }
 
 .view-all-courses-image {
-    border: 3px solid #ce417d;
+    border: 3px solid #042241;
     animation: borderColorsPaymentField 10s linear infinite;
     border-radius: 10px;
     text-align: center;
@@ -6164,19 +6143,7 @@ Subscribe Area CSS
     width: 100%;
     border: none;
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-        53deg,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(253, 242, 247, 1) 0%,
-        rgba(250, 224, 236, 1) 45%,
-        rgba(249, 219, 233, 1) 53%,
-        rgba(248, 209, 227, 1) 68%,
-        rgba(247, 200, 222, 1) 81%,
-        rgba(246, 195, 219, 1) 88%,
-        rgba(246, 192, 217, 1) 100%,
-        rgba(245, 187, 214, 1) 100%,
-        rgba(238, 138, 184, 1) 100%
-    );
+    background: linear-gradient(53deg, #042241);
     -webkit-box-shadow: var(--logo-color) 2px 5px 12px;
     box-shadow: var(--logo-color) 2px 2px 8px;
     color: var(--black-900);
@@ -7099,16 +7066,9 @@ Footer Area CSS
     background: rgb(255, 255, 255);
     background: linear-gradient(
         53deg,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(246, 192, 217, 1) 0%,
-        rgba(253, 242, 247, 1) 13%,
-        rgba(250, 224, 236, 1) 45%,
-        rgba(249, 219, 233, 1) 53%,
-        rgba(248, 209, 227, 1) 68%,
-        rgba(247, 200, 222, 1) 81%,
-        rgba(246, 195, 219, 1) 88%,
-        rgba(245, 187, 214, 1) 100%,
-        rgba(238, 138, 184, 1) 100%
+        #ebebee 0%,
+
+        #042241 100%
     );
     position: relative;
     z-index: 1;
@@ -8253,7 +8213,7 @@ Go Top CSS
         border-color: #2196f3;
     }
     25% {
-        border-color: #ce417d;
+        border-color: #042241;
     }
     50% {
         border-color: #4caf50;
@@ -8288,7 +8248,7 @@ Go Top CSS
     transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 2rem;
-    border: 3.8px solid #ce417d;
+    border: 3.8px solid #042241;
     animation: borderColorsPaymentField 4s linear infinite,
         popupFadeIn 0.5s forwards, slideInFromLeft 0.5s forwards;
     animation-delay: 1s, 1s, 1s;
@@ -8613,10 +8573,10 @@ Go Top CSS
 
 @keyframes borderColorsPaymentField {
     0% {
-        border-color: #ee8ab8;
+        border-color: #042241;
     }
     25% {
-        border-color: #ce417d;
+        border-color: #042241;
     }
     50% {
         border-color: var(--color-secundario);
@@ -8630,7 +8590,7 @@ Go Top CSS
 }
 
 .payment-field-border {
-    border: 1px solid #ce417d;
+    border: 1px solid #042241;
     animation: borderColorsPaymentField 10s linear infinite;
 }
 
@@ -8651,7 +8611,7 @@ Go Top CSS
     left: 0;
     width: 100%;
     height: 100%;
-    border: 6px solid #ce417d;
+    border: 6px solid #042241;
     animation: borderColorsPaymentField 4s linear infinite;
     border-radius: 10px;
 }
@@ -8690,8 +8650,8 @@ Go Top CSS
 .button-21 {
     align-items: center;
     appearance: none;
-    background-color: #ce417d;
-    background-image: linear-gradient(1deg, #ce417d, #ee8ab8 99%);
+    background-color: #042241;
+    background-image: linear-gradient(1deg, #042241, #042230 99%);
     background-size: calc(100% + 20px) calc(100% + 20px);
     border-radius: 100px;
     border-width: 0;
@@ -8727,7 +8687,7 @@ Go Top CSS
 }
 
 .button-21:focus:not(:active) {
-    box-shadow: #ee8ab8 0 0 0 0.125em;
+    box-shadow: #042241 0 0 0 0.125em;
 }
 
 .quiz-container {
@@ -8739,7 +8699,7 @@ Go Top CSS
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif;
-    border: 3.8px solid #ce417d;
+    border: 3.8px solid #042241;
     animation: borderColorsPaymentField 10s linear infinite;
 }
 
@@ -9055,7 +9015,7 @@ Go Top CSS
     right: 0;
     z-index: 100;
     background-color: white;
-    border: 1px solid #ce417d;
+    border: 1px solid #042241;
     animation: borderColorsPaymentField 10s linear infinite;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

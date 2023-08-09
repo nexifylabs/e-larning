@@ -1,10 +1,6 @@
 .topBanner {
     display: none;
-    background: linear-gradient(
-        172deg,
-        rgb(206, 65, 125) 0%,
-        rgb(204, 194, 229) 100%
-    );
+    background: linear-gradient(172deg, #042241 0%, rgb(58, 56, 92) 100%);
     color: #ffffff;
     text-align: center;
     padding: 10px 0;

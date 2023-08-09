@@ -79,7 +79,7 @@ const NotificationIcon = () => {
                         size={24}
                         style={{
                             color:
-                                notifications.length > 0 ? '#CE417D' : 'black',
+                                notifications.length > 0 ? '#042241' : 'black',
                         }}
                     />
                 </button>

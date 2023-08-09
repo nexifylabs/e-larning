@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Head>
-                <title>Escola Sorvete - Sorvete de Verdade</title>
+                <title>eLearning Ecommerce Platform NexifyLabs</title>
                 <meta
                     name='viewport'
                     content='initial-scale=1.0, width=device-width'
