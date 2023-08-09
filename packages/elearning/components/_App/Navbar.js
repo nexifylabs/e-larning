@@ -63,8 +63,9 @@ const Navbar = ({ user }) => {
                                         className='navbar-brand'
                                     >
                                         <img
-                                            src='/logo07.png'
+                                            src='/mainlogo.png'
                                             alt='logo'
+                                            style={{ width: '120px' }}
                                             className='navbar-logo'
                                         />
                                     </a>

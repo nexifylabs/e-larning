@@ -33,8 +33,8 @@ export const confirmEmailAddress = async (user) => {
 
         <style>
         :root {
-            --main-color: #EE8AB8;
-            --accent-color: #CE417D;
+            --main-color: #042241;
+            --accent-color: #042241;
         }
         </style>
 
@@ -401,7 +401,7 @@ export const confirmEmailAddress = async (user) => {
                                             </p>
                                             <center>
   <p>
-    <a href="${baseUrl}/confirm-email?token=${user.reset_password_token}&email=${user.email}" style="display: inline-block; font-weight: 400; text-align: center; text-decoration: none; font-size: 16px; line-height: 20px; padding: 12px 30px; background-color: #CE417D; border-radius: 4px; color: #ffffff;">
+    <a href="${baseUrl}/confirm-email?token=${user.reset_password_token}&email=${user.email}" style="display: inline-block; font-weight: 400; text-align: center; text-decoration: none; font-size: 16px; line-height: 20px; padding: 12px 30px; background-color: #042241; border-radius: 4px; color: #ffffff;">
       Confirmar meu endereço de e-mail
     </a>
   </p>
@@ -442,7 +442,7 @@ export const confirmEmailAddress = async (user) => {
         <td style="text-align: center;">
           <h3 style="margin-bottom: 5px;">Escola Sorvete</h3>
           <p style="text-align: center; margin-bottom: 0;">
-            <a href="https://www.escolasorvete.com.br/" target="_blank" style="color: #CE417D;">www.escolasorvete.com.br</a>
+            <a href="https://www.escolasorvete.com.br/" target="_blank" style="color: #042241;">www.escolasorvete.com.br</a>
           </p>
           <p style="text-align: center; margin-top: 5px;">Rua Barra Funda, 209 - Barra Funda, São Paulo</p>
         </td>

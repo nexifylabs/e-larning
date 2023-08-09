@@ -23,14 +23,15 @@ const Footer = () => {
                                     <Link href='/'>
                                         <a className='logo'>
                                             <img
-                                                src='/logo07.png'
+                                                src='/mainlogo.png'
                                                 alt='logo'
                                                 className='newsletter-img'
+                                                style={{ width: '140px' }}
                                             />
                                         </a>
                                     </Link>
 
-                                    <p>
+                                    <p style={{ color: 'black' }}>
                                         {t('footer-text', {
                                             defaultValue:
                                                 'We work to train entrepreneurs with autonomy, who build sustainable businesses, who care about the environment, and highlight Brazilian diversity.',
@@ -83,7 +84,7 @@ const Footer = () => {
                                     <ul className='footer-links-list'>
                                         <li>
                                             <Link href='/'>
-                                                <a>
+                                                <a style={{ color: 'black' }}>
                                                     {t('footer-link1', {
                                                         defaultValue: 'Home',
                                                     })}
@@ -93,7 +94,7 @@ const Footer = () => {
 
                                         <li>
                                             <Link href='/courses'>
-                                                <a>
+                                                <a style={{ color: 'black' }}>
                                                     {t('footer-link3', {
                                                         defaultValue: 'Courses',
                                                     })}
@@ -102,7 +103,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <Link href='/contact-us'>
-                                                <a>
+                                                <a style={{ color: 'black' }}>
                                                     {t('footer-link4', {
                                                         defaultValue: 'Contact',
                                                     })}
@@ -161,7 +162,7 @@ const Footer = () => {
                                     <p>
                                         Copyright{' '}
                                         <i className='bx bx-copyright'></i>{' '}
-                                        {currentYear}-2024 Escola Sorvete. All
+                                        {currentYear}-2024 NexifyLabs. All
                                         rights reserved.
                                     </p>
                                 </div>

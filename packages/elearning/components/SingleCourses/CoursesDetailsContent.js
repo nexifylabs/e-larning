@@ -49,7 +49,7 @@ const CoursesDetailsContent = ({ user: current_user, course }) => {
                                     <div className='courses-title'>
                                         <p
                                             style={{
-                                                color: '#CE417D',
+                                                color: '#042241',
                                                 textTransform: 'uppercase',
                                                 fontWeight: 'bold',
                                                 fontSize: '14px',

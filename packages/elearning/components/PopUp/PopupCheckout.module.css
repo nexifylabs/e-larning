@@ -3,7 +3,7 @@
         border-color: #2196f3;
     }
     25% {
-        border-color: #ce417d;
+        border-color: #042241;
     }
     50% {
         border-color: #4caf50;
@@ -23,7 +23,7 @@
     transform: translate(-50%, -50%);
     width: 80%;
     max-width: 400px;
-    border: 4.5px solid #ce417d;
+    border: 4.5px solid #042241;
     animation: borderColors 4s linear infinite;
     background-color: white;
     border-radius: 18px;
@@ -39,7 +39,7 @@
 .subtitulo {
     font-size: 11px;
     text-transform: capitalize;
-    color: #ce417d;
+    color: #042241;
     font-weight: 700;
     text-align: center;
 }
@@ -83,7 +83,7 @@
 
 .button {
     cursor: pointer;
-    background-color: #ce417d;
+    background-color: #042241;
     color: white;
     border: none;
     border-radius: 5px;

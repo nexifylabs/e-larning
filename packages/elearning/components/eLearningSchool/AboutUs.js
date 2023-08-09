@@ -99,7 +99,7 @@ const AboutUs = () => {
 
                     <div className='shape4'>
                         <img
-                            src='/sorvete-logo.png'
+                            src='/planet2.png'
                             alt='image'
                             className='navbar-logo'
                         />

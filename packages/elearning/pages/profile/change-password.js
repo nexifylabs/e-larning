@@ -173,7 +173,7 @@ const ChangePassword = ({ user }) => {
                                     style={{
                                         marginTop: '50px',
                                         marginBottom: '50px',
-                                        background: '#CE417D',
+                                        background: '#042241',
                                     }}
                                 >
                                     {loading ? (

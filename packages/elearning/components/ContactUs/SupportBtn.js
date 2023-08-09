@@ -29,7 +29,7 @@ const SupportButton = () => {
                 @keyframes pulsate {
                     0% {
                         transform: scale(1);
-                        box-shadow: 0 0 0 0 #ce417d;
+                        box-shadow: 0 0 0 0 #042241;
                     }
                     70% {
                         transform: scale(1.05);
@@ -54,7 +54,7 @@ const SupportButton = () => {
                     justify-content: center;
                     width: 60px;
                     height: 60px;
-                    background-color: #ee8ab8;
+                    background-color: #042241;
                     color: #ffffff;
                     border: none;
                     border-radius: 50%;
@@ -65,7 +65,7 @@ const SupportButton = () => {
                     animation: pulsate 1.5s infinite ease-in-out;
                 }
                 button:hover {
-                    background-color: #ce417d;
+                    background-color: #042241;
                     transform: scale(1.1);
                 }
             `}</style>

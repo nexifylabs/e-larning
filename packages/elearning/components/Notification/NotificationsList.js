@@ -142,7 +142,7 @@ const NotificationList = ({ user }) => {
                 }
 
                 .notification-item:hover {
-                    box-shadow: 0 3px 6px #ee8ab8;
+                    box-shadow: 0 3px 6px #042241;
                 }
 
                 .notification-content {

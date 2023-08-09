@@ -51,7 +51,7 @@ const ViewAllCourses = () => {
                                             rel='noopener noreferrer'
                                             style={{
                                                 marginRight: '32px',
-                                                color: '#ce417d',
+                                                color: '#042241',
                                             }}
                                         >
                                             <i
@@ -65,7 +65,7 @@ const ViewAllCourses = () => {
                                             rel='noopener noreferrer'
                                             style={{
                                                 marginRight: '32px',
-                                                color: '#ce417d',
+                                                color: '#042241',
                                             }}
                                         >
                                             <i
@@ -80,7 +80,7 @@ const ViewAllCourses = () => {
                                             rel='noopener noreferrer'
                                             style={{
                                                 marginRight: '32px',
-                                                color: '#ce417d',
+                                                color: '#042241',
                                             }}
                                         >
                                             <i
@@ -94,7 +94,7 @@ const ViewAllCourses = () => {
                                             rel='noopener noreferrer'
                                             style={{
                                                 marginRight: '32px',
-                                                color: '#ce417d',
+                                                color: '#042241',
                                             }}
                                         >
                                             <i
@@ -108,7 +108,7 @@ const ViewAllCourses = () => {
                                             rel='noopener noreferrer'
                                             style={{
                                                 marginRight: '32px',
-                                                color: '#ce417d',
+                                                color: '#042241',
                                             }}
                                         >
                                             <i

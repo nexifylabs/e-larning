@@ -123,11 +123,11 @@ export const passwordAndAccmade = async (password, name, email) => {
     /* Buttons ------------------------------ */
     
     .button {
-      background-color: #CE417D;
-      border-top: 10px solid #CE417D;
-      border-right: 18px solid #CE417D;
-      border-bottom: 10px solid #CE417D;
-      border-left: 18px solid #CE417D;
+      background-color: #042241;
+      border-top: 10px solid #042241;
+      border-right: 18px solid #042241;
+      border-bottom: 10px solid #042241;
+      border-left: 18px solid #042241;
       display: inline-block;
       color: #FFF;
       text-decoration: none;
@@ -338,7 +338,7 @@ export const passwordAndAccmade = async (password, name, email) => {
     .email-masthead_name {
       font-size: 16px;
       font-weight: bold;
-      color: #CE417D;
+      color: #042241;
       text-decoration: none;
       text-shadow: 0 1px 0 white;
     }
@@ -479,7 +479,7 @@ export const passwordAndAccmade = async (password, name, email) => {
                               <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                 <tr>
                                   <td align="center">
-                                    <div>Segue abaixo a senha de acesso: <span color='#CE417D'>${password}</span>. As informações de compra estão no seguinte e-mail.</div>
+                                    <div>Segue abaixo a senha de acesso: <span color='#042241'>${password}</span>. As informações de compra estão no seguinte e-mail.</div>
                                   </td>
                                 </tr>
                               </table>
